@@ -6,7 +6,7 @@ const Navebar = () => {
       <div className='w-full pt-4 flex items-center justify-center'>
         <div className='flex gap-4 w-86 rounded-4xl backdrop-blur p-3 border-2 border-[#53d364] font-bold text-[#53d364] items-center justify-center'>
           <div>
-            <img className='w-7.5 cursor-pointer' src="src/assets/webphotos/Uniodessy Logo.png" alt="logo" />
+            <img className='w-7.5 cursor-pointer' src="/webphotos/Uniodessy Logo.png" alt="logo" />
           </div>
           <div className='cursor-pointer'><a href="#benifits">Benefits</a></div>
           <div className='cursor-pointer'><a href="#casestudy">Case Study</a></div>

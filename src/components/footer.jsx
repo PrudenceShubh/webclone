@@ -10,7 +10,7 @@ const AirnbnbFooter = () => {
        
       {/* Footer Bottom */}
       <div className="border-t">
-      <img className='w-50  cursor-pointer' src="src/assets/webphotos/logo-full.webp" alt="logo" />
+      <img className='w-50  cursor-pointer' src="/webphotos/logo-full.webp" alt="logo" />
       <div className=" pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-white  gap-4">
         <div className="text-center md:text-left">
           © 2025 Uniodessy. All rights reserved.·{" "}
