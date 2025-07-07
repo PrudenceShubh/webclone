@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   const handleEmailClick = () => {
-    window.location.href = "mailto:shubham.kumar101122@gmail.com?subject=Book a Call - Website Inquiry&body=Hi Shubham,%0D%0A%0D%0AI'm interested in booking a call to discuss my website project.%0D%0A%0D%0APlease let me know your availability.%0D%0A%0D%0AThank you!";
+    window.location.href = "mailto:shubham.work.holder@gmail.com?subject=Book a Call - Website Inquiry&body=Hi Shubham,%0D%0A%0D%0AI'm interested in booking a call to discuss my website project.%0D%0A%0D%0APlease let me know your availability.%0D%0A%0D%0AThank you!";
   };
 
   return (
