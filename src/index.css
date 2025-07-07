@@ -9,4 +9,16 @@
   background-color: #000000;
 
 }
+*{
+  box-sizing: border-box;
+}
 
+/* Hide scrollbar for swipe functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

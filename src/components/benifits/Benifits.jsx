@@ -21,7 +21,7 @@ const Benifits = () => {
                 </div>
 
 
-                <div className='grid grid-cols-3 gap-10 p-5'>
+                <div className='grid grid-cols-3 max-sm:grid-cols-2 max-sm:gap-3 gap-10 max-sm:p-2 p-5'>
                     <div className=' border border-transparent hover:border-white rounded-2xl  p-5 flex flex-col '>
                         <div className='text-center font-bold '><MdOutlineGridOn className='w-16 h-16 text-[#53d364]'/></div>
                         <div className=' flex flex-col gap-2 pt-10'>

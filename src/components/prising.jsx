@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className=" pt-10w-full h-full">
+    <div className=" w-full h-full">
       <div>
         <h2 className="text-3xl font-bold tracking text-center mt-12 sm:text-5xl ">
           Pricing

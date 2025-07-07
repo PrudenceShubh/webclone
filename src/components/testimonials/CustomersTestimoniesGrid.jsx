@@ -2,11 +2,11 @@ import React from "react";
 
 const CustomersTestimoniesGrid = () => {
   return (
-    <section id="testimonies" className="py-20 pt-70 bg-black">
+    <section id="testimonies" className="py-20 pt-70 max-sm:pt-40 bg-black">
       <div className="max-w-6xl mx-8 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-          <div className="mb-12 space-y-5 md:mb-16 md:text-center">
-            <div className="inline-block px-3 py-1 textm font-semibold text-indigo-100 rounded-lg md:text-center text-cn bg-[#202c47] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40">
+          <div className="mb-12 space-y-5 md:mb-16 md:text-center max-sm:text-center">
+            <div className="inline-block px-3 py-1 textm font-bold text-indigo-100 rounded-lg md:text-center max-sm:text-center  text-cn bg-[#202c47] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40 max-sm:p-4">
               Words from Others
             </div>
             <h1 className="   mb-5 text-5xl font-semibold text-white md:text-center md:text-5xl">

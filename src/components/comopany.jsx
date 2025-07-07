@@ -4,10 +4,11 @@ import complist from "../assets/company";
 
 const Company = () => {
   return (
-    <div className="w-full pt-20 py-6">
-        <div className="flex justify-center items-center font-light"><p>Trusted by 30+ agencies, startups, and consultants worldwide</p></div>
+    <div className=" max-sm:flex max-sm:items-cneter max-sm:justify-center">
+    <div className="w-full max-sm:w-[90%] pt-20 py-6">
+        <div className="flex justify-center items-center max-sm:font-bold max-sm:text-l font-light"><p>Trusted by 30+ agencies, startups, and consultants worldwide</p></div>
       <div className="flex pt-5  justify-center items-center">
-        <div className="w-[70%]">
+        <div className="max-sm:w-[100%] w-[70%]">
           <Marquee speed={50} pauseOnHover={true} className="">
             {complist.map((name, index) => (
               <div
@@ -20,6 +21,7 @@ const Company = () => {
           </Marquee>
         </div>
       </div>
+    </div>
     </div>
   );
 };
